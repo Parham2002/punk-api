@@ -1,9 +1,12 @@
 import React from 'react'
+import CardContainer from './CardContainer/CardContainer'
 import "./Main.scss"
 
 const Main = () => {
   return (
-    <div className='main'>Main</div>
+    <div className='main'>
+      {}
+    </div>
   )
 }
 
