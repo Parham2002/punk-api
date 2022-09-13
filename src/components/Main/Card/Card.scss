@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid black;
+    position: relative;
+    height: 400px;
+    margin: 20px;
+    &__name {
+        position: absolute;
+        left: 35%;
+    }
+    &__tagline {
+        position: absolute;
+        left: 35%;
+        top: 20%;
+    }
+    &__img {
+        position: absolute;
+        width: 30%;
+        height: 90%;
+        left: 1%;
+        top: 5%;
+
+    }
+}
