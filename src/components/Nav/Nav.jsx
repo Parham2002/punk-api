@@ -1,9 +1,18 @@
 import React from 'react'
 import "./Nav.scss"
+import SearchBox from "./SearchBox/SearchBox"
 
 const Nav = () => {
   return (
-    <div className='nav-bar'>Nav</div>
+    <div className='nav-bar'>
+      <SearchBox/>
+      <form className='nav-bar__buttons'>
+        <p>High Alcohol (ABV &gt; 6.0%) <input type="checkbox" /></p>
+        <p>Classic Range (Was first brewed before 2010) <input type="checkbox" /></p>
+        <p>High Acidity (pH lower than 4) <input type="checkbox" /></p>
+      </form>
+
+    </div>
   )
 }
 
