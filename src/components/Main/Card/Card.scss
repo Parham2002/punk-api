@@ -3,21 +3,39 @@
     position: relative;
     height: 400px;
     margin: 20px;
-    &__name {
-        position: absolute;
-        left: 35%;
-    }
-    &__tagline {
-        position: absolute;
-        left: 35%;
-        top: 20%;
-    }
+
     &__img {
         position: absolute;
         width: 30%;
         height: 90%;
         left: 1%;
         top: 5%;
+    }
+    &__name {
+        position: absolute;
+        left: 35%;
 
+        font-size: 25px;
+    }
+    &__tagline {
+        position: absolute;
+        left: 35%;
+        top: 20%;
+    }
+    &__firstbrewed {
+        position: absolute;
+        left: 35%;
+        top: 25%;
+    }
+
+    &__description {
+        position: absolute;
+        height: 59%;
+        left: 35%;
+        top: 40%;
+        text-align: center;
+
+        background-color: rgb(162, 113, 113);
+        overflow-y: scroll;
     }
 }

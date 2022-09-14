@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Main.scss"
 import Card from './Card/Card'
 import { useState } from 'react'
-// import beerData from "../../assets/data/beerData"
 
 const Main = () => {
   const [beers, setBeers] = useState();
@@ -13,7 +12,10 @@ const Main = () => {
     const data = await res.json();
     setBeers(data)
   }
-  getBeers()
+  useEffect(() => {
+    getBeers()
+  }, [])
+
   return (
     <div className='main'>
       {beers?.map((beer) => {
