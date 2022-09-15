@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react"
 import "./Nav.scss"
-import SearchBox from "./SearchBox/SearchBox"
+import SearchBox from "../SearchBox/SearchBox"
 
-const Nav = () => {
+
+const Nav = ({getSearchBoxValue}) => {
+
   return (
     <div className='nav-bar'>
-      <SearchBox/>
+      <SearchBox getValue={getSearchBoxValue}/>
       <form className='nav-bar__buttons'>
         <p>High Alcohol (ABV &gt; 6.0%) <input type="checkbox" /></p>
         <p>Classic Range (Was first brewed before 2010) <input type="checkbox" /></p>
