@@ -6,6 +6,7 @@ I created this project through the use of tools and methods including but not li
 
 If I had more time to spend on this project, I would:
 1. Add functionality to the filter buttons
-2. Make the page responsive to different widths
-3. Improve aesthetics/ do more styling
-4. Add more pseudocode to code
+2. Use routes
+3. Make the page responsive to different widths
+4. Improve aesthetics/ do more styling
+5. Add more pseudocode to code
