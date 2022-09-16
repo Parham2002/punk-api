@@ -10,7 +10,7 @@ const Main = ({searchTerm}) => {
     const url = "https://api.punkapi.com/v2/beers";
     const res = await fetch(url);
     const data = await res.json();
-    const filterSearch = data.filter((beer) => beer.name.includes(searchTerm))
+    const filterSearch = data.filter((beer) => beer.name.toLowerCase().includes(searchTerm))
     setBeers(filterSearch)
   }
   

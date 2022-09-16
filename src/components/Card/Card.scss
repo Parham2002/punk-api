@@ -1,8 +1,14 @@
+@use "../../assets/sass/Styles.scss" as *;
+
 .card {
     border: 1px solid black;
     position: relative;
     height: 400px;
     margin: 20px;
+
+    background-color: rgb(94, 8, 8 , 0.5);
+    color: $main-color;
+    font-family: $main-font;
 
     &__img {
         position: absolute;
@@ -35,7 +41,6 @@
         top: 40%;
         text-align: center;
 
-        background-color: rgb(162, 113, 113);
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 }

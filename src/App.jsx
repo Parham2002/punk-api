@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header/>
       <Nav getSearchBoxValue={getSearchBoxValue}/>
-      <Main searchTerm = {searchTerm}/>
+      <Main searchTerm = {searchTerm.toLowerCase()}/>
 
     </div>
   );

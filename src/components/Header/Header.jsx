@@ -3,7 +3,7 @@ import "./Header.scss"
 
 const Header = () => {
   return (
-    <div className='header'>Header</div>
+    <div className='header'>PUNK API</div>
   )
 }
 
