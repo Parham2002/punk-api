@@ -1,6 +1,8 @@
+@use "../src/assets/sass/Styles.scss" as *;
 
 .App {
   text-align: center;
+  font-family: $main-font;
 }
 
 .App-logo {
