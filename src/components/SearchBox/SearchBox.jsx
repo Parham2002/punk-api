@@ -1,9 +1,10 @@
 import React from 'react'
 import "./SearchBox.scss"
 
-const SearchBox = ({getValue}) => {
+const SearchBox = ({getSearchBoxValue}) => {
   return (
-    <input className='search-box' type="text" placeholder='Search by name' onChange={getValue} />
+    {/* calls the function based on any user input */},
+    <input className='search-box' type="text" placeholder='Search by name' onChange={getSearchBoxValue} />
   )
 }
 
