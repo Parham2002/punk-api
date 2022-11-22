@@ -10,3 +10,22 @@ If I had more time to spend on this project, I would:
 3. Make the page responsive to different widths
 4. Improve aesthetics/ do more styling
 5. Add more pseudocode to code
+
+Technologies and methods used:
+- HTML
+- CSS
+- SCSS
+- Git
+- Git Pages
+- React
+- JSX
+- Functions
+- Arrays
+- Objects
+- useState
+- useEffect
+- Object destructuring
+- Components
+
+![Screenshot (9)](https://user-images.githubusercontent.com/98832011/203293596-34b3c501-f25f-4f36-8096-470379ea277c.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/98832011/203293797-4bfa705f-0fa0-48d6-a4f5-94f8b3bc407f.png)
